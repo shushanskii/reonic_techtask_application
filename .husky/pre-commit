@@ -1,1 +1,1 @@
-echo "pre-commit"
+lint-staged

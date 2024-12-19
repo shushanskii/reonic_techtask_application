@@ -1,3 +1,4 @@
 {
-  "*": "echo `lint-stage`"
+  "*.ts": "npm run lint --workspaces --if-present",
+  "*.tsx": "npm run lint --workspaces --if-present"
 }

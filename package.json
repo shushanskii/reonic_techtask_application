@@ -1,0 +1,23 @@
+{
+  "name": "reonic_techtask_application",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "Konstantin Shushanskii <shusha.computer@gmail.com>",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "packages/front",
+    "packages/back"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.11"
+  }
+}
